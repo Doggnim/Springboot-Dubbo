@@ -18,12 +18,7 @@ public class ResponseController {
 
     @GetMapping
     public String getResponseByNum(@RequestParam("num") int num) {
-        if (num == 233) {
-            return "哈哈哈";
-        } else if (num == 886) {
-            return "拜拜了";
-        }
-        return "无法识别";
+        return responseService.getResponseByNum(num);
     }
 
 
