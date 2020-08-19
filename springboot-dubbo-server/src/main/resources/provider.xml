@@ -28,6 +28,6 @@ http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 <!--                   ref="responseService"/>-->
     <!-- 具体的实现bean，id与上面的ref要一致-->
 <!--    <bean id="responseService"-->
-<!--          class="com.example.demo.service.ResponseServiceImpl"/>-->
+<!--          class="com.example.demo.service.impl.ResponseServiceImpl"/>-->
 
 </beans>
