@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ImportResource;
  * @Date 2020/8/19
  */
 @SpringBootApplication
-@ImportResource("classpath:consumer.xml") //加载xml配置文件
+@ImportResource("classpath:consumer.xml") // 加载xml配置文件
 public class SpringbootDubboClientApplication {
 
     public static void main(String[] args) {
