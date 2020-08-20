@@ -1,11 +1,13 @@
 package com.example.demo.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.example.demo.service.ResponseService;
 
 /**
  * @Author Chuming Huang
  * @Date 2020/8/19
  */
+@Service
 public class ResponseServiceImpl implements ResponseService {
     @Override
     public String getResponseByNum(int num) {
