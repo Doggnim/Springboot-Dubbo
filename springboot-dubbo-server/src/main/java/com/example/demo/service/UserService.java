@@ -7,12 +7,10 @@ import com.example.demo.entity.User;
  * @Date 2020/8/19
  */
 public interface UserService {
-
     /**
-     * 根据id得到用户
+     * 根据输入用户id返回对应用户
      * @param id
      * @return user
      */
     User findUserById(int id);
-
 }

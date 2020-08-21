@@ -2,19 +2,32 @@ package com.example.demo.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @Author Chuming Huang
  * @Date 2020/8/19
  */
 @Data
-public class User {
-
+public class User implements Serializable {
+    /**
+     * 用户id
+     */
     private int id;
 
+    /**
+     * 用户姓名
+     */
     private String name;
 
-    private String age;
+    /**
+     * 用户性别
+     * 0为女, 1为男
+     */
+    private int sex;
 
-    private String sex;
-
+    /**
+     * 用户年龄
+     */
+    private int age;
 }
