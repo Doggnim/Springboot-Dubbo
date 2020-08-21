@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 /**
  * @Author Chuming Huang
- * @Date 2020/8/19
+ * @Date 2020/8/21
  */
 @Data
 public class User implements Serializable {

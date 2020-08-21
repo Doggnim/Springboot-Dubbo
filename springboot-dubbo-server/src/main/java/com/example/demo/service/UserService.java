@@ -4,7 +4,7 @@ import com.example.demo.entity.User;
 
 /**
  * @Author Chuming Huang
- * @Date 2020/8/19
+ * @Date 2020/8/21
  */
 public interface UserService {
     /**

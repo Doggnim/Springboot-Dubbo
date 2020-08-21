@@ -7,16 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @Author Chuming Huang
- * @Date 2020/8/19
+ * @Date 2020/8/21
  */
 @EnableDubbo
 @MapperScan("com.example.demo.dao")
 @SpringBootApplication
 public class SpringbootDubboServerApplication {
-
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(SpringbootDubboServerApplication.class, args);
         Thread.sleep(Long.MAX_VALUE);
     }
-
 }
